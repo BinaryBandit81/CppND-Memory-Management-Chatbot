@@ -544,19 +544,6 @@ CMakeFiles/membot.dir/src/chatbot.cpp.o: ../src/chatbot.cpp \
   /usr/include/wx-3.0/wx/filectrl.h \
   /usr/include/wx-3.0/wx/mdi.h \
   /usr/include/wx-3.0/wx/gtk/mdi.h \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
   ../src/graphnode.h \
   ../src/chatbot.h \
   ../src/graphedge.h
@@ -2293,24 +2280,6 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 
 ../src/graphedge.h:
 
-/usr/include/c++/11/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/11/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/11/ext/concurrence.h:
-
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
-/usr/include/c++/11/bits/shared_ptr.h:
-
-/usr/include/c++/11/bits/unique_ptr.h:
-
-/usr/include/c++/11/bits/align.h:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
-
-/usr/include/c++/11/memory:
-
 /usr/include/wx-3.0/wx/gtk/mdi.h:
 
 /usr/include/wx-3.0/wx/mdi.h:
@@ -2388,8 +2357,6 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 /usr/include/c++/11/bits/stl_algo.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/c++/11/backward/auto_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
@@ -2486,8 +2453,6 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 /usr/include/wx-3.0/wx/gtk/radiobut.h:
 
 /usr/include/alloca.h:
-
-/usr/include/c++/11/bits/atomic_base.h:
 
 /usr/include/c++/11/bits/random.tcc:
 
@@ -3015,8 +2980,6 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 
 /usr/include/wx-3.0/wx/xti.h:
 
-/usr/include/c++/11/bits/allocated_ptr.h:
-
 /usr/include/assert.h:
 
 /usr/include/wx-3.0/wx/dcmemory.h:
@@ -3096,8 +3059,6 @@ CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp \
 /usr/include/wx-3.0/wx/language.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_stat.h:
-
-/usr/include/c++/11/pstl/glue_memory_defs.h:
 
 /usr/include/linux/stat.h:
 

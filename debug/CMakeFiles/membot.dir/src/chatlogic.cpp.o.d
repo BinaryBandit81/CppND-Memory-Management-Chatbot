@@ -1,6 +1,8 @@
-CMakeFiles/membot.dir/src/chatbot.cpp.o: \
- /mnt/c/c/dev/CppND-Memory-Management-Chatbot/src/chatbot.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
+CMakeFiles/membot.dir/src/chatlogic.cpp.o: \
+ /mnt/c/c/dev/CppND-Memory-Management-Chatbot/src/chatlogic.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/fstream \
+ /usr/include/c++/11/istream /usr/include/c++/11/ios \
+ /usr/include/c++/11/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -11,8 +13,7 @@ CMakeFiles/membot.dir/src/chatbot.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
- /usr/include/c++/11/pstl/pstl_config.h /usr/include/c++/11/ostream \
- /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
+ /usr/include/c++/11/pstl/pstl_config.h \
  /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/memoryfwd.h /usr/include/c++/11/bits/postypes.h \
  /usr/include/c++/11/cwchar /usr/include/wchar.h \
@@ -142,9 +143,76 @@ CMakeFiles/membot.dir/src/chatbot.cpp.o: \
  /usr/include/c++/11/bits/streambuf_iterator.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
  /usr/include/c++/11/bits/locale_facets.tcc \
- /usr/include/c++/11/bits/basic_ios.tcc \
- /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/random \
+ /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/ostream \
+ /usr/include/c++/11/bits/ostream.tcc \
+ /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/sstream \
+ /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/iostream \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/iterator \
+ /usr/include/c++/11/bits/stream_iterator.h /usr/include/c++/11/tuple \
+ /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
+ /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
+ /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/algorithm \
+ /usr/include/c++/11/bits/stl_algo.h \
+ /usr/include/c++/11/bits/algorithmfwd.h \
+ /usr/include/c++/11/bits/stl_heap.h \
+ /usr/include/c++/11/bits/stl_tempbuf.h \
+ /usr/include/c++/11/bits/uniform_int_dist.h \
+ /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/11/functional /usr/include/c++/11/bits/refwrap.h \
+ /usr/include/c++/11/bits/std_function.h \
+ /usr/include/c++/11/unordered_map \
+ /usr/include/c++/11/ext/aligned_buffer.h \
+ /usr/include/c++/11/bits/hashtable.h \
+ /usr/include/c++/11/bits/hashtable_policy.h \
+ /usr/include/c++/11/bits/enable_special_members.h \
+ /usr/include/c++/11/bits/node_handle.h \
+ /usr/include/c++/11/bits/unordered_map.h \
+ /usr/include/c++/11/bits/erase_if.h \
+ /usr/include/c++/11/pstl/execution_defs.h \
+ /mnt/c/c/dev/CppND-Memory-Management-Chatbot/src/graphedge.h \
+ /mnt/c/c/dev/CppND-Memory-Management-Chatbot/src/graphnode.h \
+ /mnt/c/c/dev/CppND-Memory-Management-Chatbot/src/chatbot.h \
+ /usr/include/wx-3.0/wx/bitmap.h /usr/include/wx-3.0/wx/string.h \
+ /usr/include/wx-3.0/wx/defs.h /usr/include/wx-3.0/wx/platform.h \
+ /usr/include/wx-3.0/wx/compiler.h \
+ /usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0/wx/setup.h \
+ /usr/include/wx-3.0/wx/chkconf.h /usr/include/wx-3.0/wx/gtk/chkconf.h \
+ /usr/include/wx-3.0/wx/unix/chkconf.h /usr/include/wx-3.0/wx/version.h \
+ /usr/include/wx-3.0/wx/cpp.h /usr/include/wx-3.0/wx/dlimpexp.h \
+ /usr/include/wx-3.0/wx/debug.h /usr/include/assert.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+ /usr/include/wx-3.0/wx/chartype.h /usr/include/wx-3.0/wx/windowid.h \
+ /usr/include/wx-3.0/wx/features.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/c++/11/stdlib.h \
+ /usr/include/wx-3.0/wx/wxcrtbase.h /usr/include/wx-3.0/wx/strvararg.h \
+ /usr/include/wx-3.0/wx/strconv.h /usr/include/wx-3.0/wx/buffer.h \
+ /usr/include/wx-3.0/wx/fontenc.h /usr/include/wx-3.0/wx/unichar.h \
+ /usr/include/wx-3.0/wx/stringimpl.h /usr/include/wx-3.0/wx/beforestd.h \
+ /usr/include/wx-3.0/wx/afterstd.h /usr/include/wx-3.0/wx/stringops.h \
+ /usr/include/wx-3.0/wx/iosfwrap.h /usr/include/wx-3.0/wx/crt.h \
+ /usr/include/wx-3.0/wx/wxcrt.h /usr/include/wx-3.0/wx/wxcrtvararg.h \
+ /usr/include/wx-3.0/wx/gdicmn.h /usr/include/wx-3.0/wx/list.h \
+ /usr/include/wx-3.0/wx/object.h /usr/include/wx-3.0/wx/memory.h \
+ /usr/include/wx-3.0/wx/msgout.h /usr/include/wx-3.0/wx/xti.h \
+ /usr/include/wx-3.0/wx/rtti.h /usr/include/wx-3.0/wx/flags.h \
+ /usr/include/wx-3.0/wx/xti2.h /usr/include/wx-3.0/wx/vector.h \
+ /usr/include/wx-3.0/wx/scopeguard.h /usr/include/wx-3.0/wx/except.h \
+ /usr/include/wx-3.0/wx/meta/movable.h /usr/include/wx-3.0/wx/meta/pod.h \
+ /usr/include/wx-3.0/wx/meta/if.h /usr/include/wx-3.0/wx/hashmap.h \
+ /usr/include/wx-3.0/wx/math.h /usr/include/c++/11/math.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -167,84 +235,14 @@ CMakeFiles/membot.dir/src/chatbot.cpp.o: \
  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
- /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /usr/include/c++/11/bits/random.h /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_uninitialized.h \
- /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc \
- /usr/include/c++/11/bits/uniform_int_dist.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
- /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
- /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
- /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/algorithm \
- /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
- /usr/include/c++/11/bits/stl_algo.h \
- /usr/include/c++/11/bits/algorithmfwd.h \
- /usr/include/c++/11/bits/stl_heap.h \
- /usr/include/c++/11/bits/stl_tempbuf.h \
- /usr/include/c++/11/pstl/glue_algorithm_defs.h \
- /usr/include/c++/11/functional /usr/include/c++/11/tuple \
- /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
- /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/bits/refwrap.h \
- /usr/include/c++/11/bits/std_function.h \
- /usr/include/c++/11/unordered_map \
- /usr/include/c++/11/ext/aligned_buffer.h \
- /usr/include/c++/11/bits/hashtable.h \
- /usr/include/c++/11/bits/hashtable_policy.h \
- /usr/include/c++/11/bits/enable_special_members.h \
- /usr/include/c++/11/bits/node_handle.h \
- /usr/include/c++/11/bits/unordered_map.h \
- /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/ctime \
- /mnt/c/c/dev/CppND-Memory-Management-Chatbot/src/chatlogic.h \
- /mnt/c/c/dev/CppND-Memory-Management-Chatbot/src/chatgui.h \
- /usr/include/wx-3.0/wx/wx.h /usr/include/wx-3.0/wx/defs.h \
- /usr/include/wx-3.0/wx/platform.h /usr/include/wx-3.0/wx/compiler.h \
- /usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0/wx/setup.h \
- /usr/include/wx-3.0/wx/chkconf.h /usr/include/wx-3.0/wx/gtk/chkconf.h \
- /usr/include/wx-3.0/wx/unix/chkconf.h /usr/include/wx-3.0/wx/version.h \
- /usr/include/wx-3.0/wx/cpp.h /usr/include/wx-3.0/wx/dlimpexp.h \
- /usr/include/wx-3.0/wx/debug.h /usr/include/assert.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /usr/include/wx-3.0/wx/chartype.h /usr/include/wx-3.0/wx/windowid.h \
- /usr/include/wx-3.0/wx/features.h /usr/include/wx-3.0/wx/object.h \
- /usr/include/wx-3.0/wx/memory.h /usr/include/wx-3.0/wx/string.h \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/11/stdlib.h /usr/include/wx-3.0/wx/wxcrtbase.h \
- /usr/include/wx-3.0/wx/strvararg.h /usr/include/wx-3.0/wx/strconv.h \
- /usr/include/wx-3.0/wx/buffer.h /usr/include/wx-3.0/wx/fontenc.h \
- /usr/include/wx-3.0/wx/unichar.h /usr/include/wx-3.0/wx/stringimpl.h \
- /usr/include/wx-3.0/wx/beforestd.h /usr/include/wx-3.0/wx/afterstd.h \
- /usr/include/wx-3.0/wx/stringops.h /usr/include/wx-3.0/wx/iosfwrap.h \
- /usr/include/wx-3.0/wx/crt.h /usr/include/wx-3.0/wx/wxcrt.h \
- /usr/include/wx-3.0/wx/wxcrtvararg.h /usr/include/wx-3.0/wx/msgout.h \
- /usr/include/wx-3.0/wx/xti.h /usr/include/wx-3.0/wx/rtti.h \
- /usr/include/wx-3.0/wx/flags.h /usr/include/wx-3.0/wx/xti2.h \
- /usr/include/wx-3.0/wx/dynarray.h /usr/include/wx-3.0/wx/list.h \
- /usr/include/wx-3.0/wx/vector.h /usr/include/wx-3.0/wx/scopeguard.h \
- /usr/include/wx-3.0/wx/except.h /usr/include/wx-3.0/wx/meta/movable.h \
- /usr/include/wx-3.0/wx/meta/pod.h /usr/include/wx-3.0/wx/meta/if.h \
- /usr/include/wx-3.0/wx/hash.h /usr/include/wx-3.0/wx/hashmap.h \
- /usr/include/wx-3.0/wx/arrstr.h /usr/include/c++/11/iterator \
- /usr/include/c++/11/bits/stream_iterator.h /usr/include/wx-3.0/wx/intl.h \
- /usr/include/wx-3.0/wx/translation.h /usr/include/wx-3.0/wx/language.h \
- /usr/include/wx-3.0/wx/scopedptr.h \
- /usr/include/wx-3.0/wx/checkeddelete.h /usr/include/wx-3.0/wx/log.h \
- /usr/include/wx-3.0/wx/thread.h /usr/include/wx-3.0/wx/generic/logg.h \
- /usr/include/wx-3.0/wx/event.h /usr/include/wx-3.0/wx/clntdata.h \
- /usr/include/wx-3.0/wx/gdicmn.h /usr/include/wx-3.0/wx/math.h \
- /usr/include/c++/11/math.h /usr/include/wx-3.0/wx/cursor.h \
- /usr/include/wx-3.0/wx/gtk/cursor.h /usr/include/wx-3.0/wx/gdiobj.h \
- /usr/include/wx-3.0/wx/utils.h /usr/include/wx-3.0/wx/filefn.h \
- /usr/include/x86_64-linux-gnu/sys/stat.h \
+ /usr/include/c++/11/tr1/riemann_zeta.tcc /usr/include/wx-3.0/wx/colour.h \
+ /usr/include/wx-3.0/wx/gdiobj.h /usr/include/wx-3.0/wx/variant.h \
+ /usr/include/wx-3.0/wx/arrstr.h /usr/include/wx-3.0/wx/longlong.h \
+ /usr/include/wx-3.0/wx/datetime.h /usr/include/wx-3.0/wx/anystr.h \
+ /usr/include/wx-3.0/wx/dynarray.h /usr/include/wx-3.0/wx/any.h \
+ /usr/include/wx-3.0/wx/typeinfo.h /usr/include/wx-3.0/wx/gtk/colour.h \
+ /usr/include/wx-3.0/wx/image.h /usr/include/wx-3.0/wx/stream.h \
+ /usr/include/wx-3.0/wx/filefn.h /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
  /usr/include/x86_64-linux-gnu/bits/statx.h /usr/include/linux/stat.h \
@@ -271,13 +269,26 @@ CMakeFiles/membot.dir/src/chatbot.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
- /usr/include/linux/falloc.h /usr/include/wx-3.0/wx/versioninfo.h \
+ /usr/include/linux/falloc.h /usr/include/wx-3.0/wx/imagbmp.h \
+ /usr/include/wx-3.0/wx/imagpng.h /usr/include/wx-3.0/wx/versioninfo.h \
+ /usr/include/wx-3.0/wx/imaggif.h /usr/include/wx-3.0/wx/imagpcx.h \
+ /usr/include/wx-3.0/wx/imagjpeg.h /usr/include/wx-3.0/wx/imagtga.h \
+ /usr/include/wx-3.0/wx/imagtiff.h /usr/include/wx-3.0/wx/imagpnm.h \
+ /usr/include/wx-3.0/wx/imagxpm.h /usr/include/wx-3.0/wx/imagiff.h \
+ /usr/include/wx-3.0/wx/gtk/bitmap.h \
+ /mnt/c/c/dev/CppND-Memory-Management-Chatbot/src/chatlogic.h \
+ /mnt/c/c/dev/CppND-Memory-Management-Chatbot/src/chatgui.h \
+ /usr/include/wx-3.0/wx/wx.h /usr/include/wx-3.0/wx/hash.h \
+ /usr/include/wx-3.0/wx/intl.h /usr/include/wx-3.0/wx/translation.h \
+ /usr/include/wx-3.0/wx/language.h /usr/include/wx-3.0/wx/scopedptr.h \
+ /usr/include/wx-3.0/wx/checkeddelete.h /usr/include/wx-3.0/wx/log.h \
+ /usr/include/wx-3.0/wx/thread.h /usr/include/wx-3.0/wx/generic/logg.h \
+ /usr/include/wx-3.0/wx/event.h /usr/include/wx-3.0/wx/clntdata.h \
+ /usr/include/wx-3.0/wx/cursor.h /usr/include/wx-3.0/wx/gtk/cursor.h \
+ /usr/include/wx-3.0/wx/utils.h \
  /usr/include/wx-3.0/wx/meta/implicitconversion.h \
  /usr/include/wx-3.0/wx/mousestate.h /usr/include/wx-3.0/wx/kbdstate.h \
- /usr/include/wx-3.0/wx/longlong.h /usr/include/wx-3.0/wx/platinfo.h \
- /usr/include/wx-3.0/wx/tracker.h /usr/include/wx-3.0/wx/typeinfo.h \
- /usr/include/wx-3.0/wx/any.h /usr/include/wx-3.0/wx/datetime.h \
- /usr/include/wx-3.0/wx/anystr.h /usr/include/wx-3.0/wx/variant.h \
+ /usr/include/wx-3.0/wx/platinfo.h /usr/include/wx-3.0/wx/tracker.h \
  /usr/include/wx-3.0/wx/meta/convertible.h \
  /usr/include/wx-3.0/wx/meta/removeref.h /usr/include/wx-3.0/wx/app.h \
  /usr/include/wx-3.0/wx/eventfilter.h /usr/include/wx-3.0/wx/build.h \
@@ -304,27 +315,18 @@ CMakeFiles/membot.dir/src/chatbot.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
- /usr/include/wx-3.0/wx/gtk/app.h /usr/include/wx-3.0/wx/stream.h \
- /usr/include/wx-3.0/wx/stopwatch.h /usr/include/wx-3.0/wx/time.h \
- /usr/include/wx-3.0/wx/timer.h /usr/include/wx-3.0/wx/module.h \
- /usr/include/wx-3.0/wx/window.h /usr/include/wx-3.0/wx/font.h \
- /usr/include/wx-3.0/wx/gtk/font.h /usr/include/wx-3.0/wx/colour.h \
- /usr/include/wx-3.0/wx/gtk/colour.h /usr/include/wx-3.0/wx/region.h \
- /usr/include/wx-3.0/wx/gtk/region.h /usr/include/wx-3.0/wx/validate.h \
- /usr/include/wx-3.0/wx/palette.h \
+ /usr/include/wx-3.0/wx/gtk/app.h /usr/include/wx-3.0/wx/stopwatch.h \
+ /usr/include/wx-3.0/wx/time.h /usr/include/wx-3.0/wx/timer.h \
+ /usr/include/wx-3.0/wx/module.h /usr/include/wx-3.0/wx/window.h \
+ /usr/include/wx-3.0/wx/font.h /usr/include/wx-3.0/wx/gtk/font.h \
+ /usr/include/wx-3.0/wx/region.h /usr/include/wx-3.0/wx/gtk/region.h \
+ /usr/include/wx-3.0/wx/validate.h /usr/include/wx-3.0/wx/palette.h \
  /usr/include/wx-3.0/wx/generic/paletteg.h /usr/include/wx-3.0/wx/accel.h \
  /usr/include/wx-3.0/wx/gtk/accel.h \
  /usr/include/wx-3.0/wx/generic/accel.h \
  /usr/include/wx-3.0/wx/gtk/window.h /usr/include/wx-3.0/wx/containr.h \
  /usr/include/wx-3.0/wx/panel.h /usr/include/wx-3.0/wx/generic/panelg.h \
- /usr/include/wx-3.0/wx/bitmap.h /usr/include/wx-3.0/wx/image.h \
- /usr/include/wx-3.0/wx/imagbmp.h /usr/include/wx-3.0/wx/imagpng.h \
- /usr/include/wx-3.0/wx/imaggif.h /usr/include/wx-3.0/wx/imagpcx.h \
- /usr/include/wx-3.0/wx/imagjpeg.h /usr/include/wx-3.0/wx/imagtga.h \
- /usr/include/wx-3.0/wx/imagtiff.h /usr/include/wx-3.0/wx/imagpnm.h \
- /usr/include/wx-3.0/wx/imagxpm.h /usr/include/wx-3.0/wx/imagiff.h \
- /usr/include/wx-3.0/wx/gtk/bitmap.h /usr/include/wx-3.0/wx/toplevel.h \
- /usr/include/wx-3.0/wx/nonownedwnd.h \
+ /usr/include/wx-3.0/wx/toplevel.h /usr/include/wx-3.0/wx/nonownedwnd.h \
  /usr/include/wx-3.0/wx/gtk/nonownedwnd.h \
  /usr/include/wx-3.0/wx/iconbndl.h /usr/include/wx-3.0/wx/icon.h \
  /usr/include/wx-3.0/wx/iconloc.h /usr/include/wx-3.0/wx/generic/icon.h \
@@ -383,19 +385,4 @@ CMakeFiles/membot.dir/src/chatbot.cpp.o: \
  /usr/include/wx-3.0/wx/valtext.h /usr/include/wx-3.0/wx/filedlg.h \
  /usr/include/wx-3.0/wx/gtk/filedlg.h \
  /usr/include/wx-3.0/wx/gtk/filectrl.h /usr/include/wx-3.0/wx/filectrl.h \
- /usr/include/wx-3.0/wx/mdi.h /usr/include/wx-3.0/wx/gtk/mdi.h \
- /usr/include/c++/11/memory \
- /usr/include/c++/11/bits/stl_raw_storage_iter.h \
- /usr/include/c++/11/bits/align.h /usr/include/c++/11/bits/unique_ptr.h \
- /usr/include/c++/11/bits/shared_ptr.h \
- /usr/include/c++/11/bits/shared_ptr_base.h \
- /usr/include/c++/11/bits/allocated_ptr.h \
- /usr/include/c++/11/ext/concurrence.h \
- /usr/include/c++/11/bits/shared_ptr_atomic.h \
- /usr/include/c++/11/bits/atomic_base.h \
- /usr/include/c++/11/bits/atomic_lockfree_defines.h \
- /usr/include/c++/11/backward/auto_ptr.h \
- /usr/include/c++/11/pstl/glue_memory_defs.h \
- /mnt/c/c/dev/CppND-Memory-Management-Chatbot/src/graphnode.h \
- /mnt/c/c/dev/CppND-Memory-Management-Chatbot/src/chatbot.h \
- /mnt/c/c/dev/CppND-Memory-Management-Chatbot/src/graphedge.h
+ /usr/include/wx-3.0/wx/mdi.h /usr/include/wx-3.0/wx/gtk/mdi.h
